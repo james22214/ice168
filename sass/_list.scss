@@ -1,0 +1,33 @@
+#list{
+	.col-md-2{
+		font-size: 14pt;
+		text-align: center;
+		display: block;
+	}
+	.col-md-12{
+		h1{
+			font-size: 50pt;
+			text-align: center;
+			font-family: "微軟正黑體";
+		}
+	}
+	.list-button{
+		margin-top: 10px;
+	}
+		
+	
+	.list-form{
+		font-size: 12pt;
+		span{
+			color: red;
+		}
+		.ss-choice-label{
+			color: #000;
+		}
+	}
+	.label,.label-danger{
+		h4{
+			font-family: "微軟正黑體";
+		}	
+	}
+}

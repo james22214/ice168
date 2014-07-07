@@ -1,0 +1,49 @@
+#hero{
+	.col-md-5{
+			text-align: center;
+			color: #5bc0de;
+			margin-top: 30px;
+		h1{
+			text-align: center;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			font-size: 60pt;
+		}
+		h2{
+			font-family: 'Lato', sans-serif;
+			margin-bottom: 20px;
+		}
+		p{
+			color: #fff;
+			padding: 10px;
+			font-family: 'Lato', sans-serif;
+		}
+		a{
+			@include transition-property(all);
+			@include transition-duration(0.2s);
+			@include border-radius(5px);
+			font-size: 12pt;
+		}
+		a:link,a:visited{
+			padding: 5px 10px 5px 10px;
+			color: #5bc0de;
+			text-decoration: none;
+			@include opacity(0.5);
+			border-style: solid;
+			border-width: 1px;
+		}
+		a:hover,a:active{
+			@include opacity(1);
+		}
+		.home-button{
+
+		}
+	}
+	.col-md-4{
+		text-align: center;
+		margin-top: 70px;
+		img{
+			@include border-radius(15px);
+		}	
+	}
+}
